@@ -1,8 +1,26 @@
+/* This is for home page */
 .mainHero {
   color: white;
   text-align: center;
   background-color: black;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  opacity: 0.9;
+  padding: 50px;
+  margin-top: -160px;
+  margin-left: -200px;
+}
+
+/* This is for about page */
+.mainHero-about {
+  color: white;
+  text-align: center;
+  background-color: black;
+  position: absolute;
+  /* added in circular edges */
+  border-radius: 30px;
   top: 50%;
   left: 50%;
   width: 400px;
